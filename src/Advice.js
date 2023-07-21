@@ -1,8 +1,6 @@
 import './App.css';
 import React, { useContext, useEffect, useRef, useState } from 'react';
-import { useForm } from 'react-hook-form';
-import {yupResolver} from "@hookform/resolvers/yup";
-import * as yup from 'yup';
+
 import axios from 'axios';
 import { ThemeContext } from './App';
 
